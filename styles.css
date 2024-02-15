@@ -13,10 +13,7 @@ body{
     width: 500px;
     height: 200px;
     background-color: black;
-    /* justify-content: center; */
-    /* justify-self: center; */
     margin: auto;
-    /* margin-top: 50px; */
     top: 50px;
     position: relative;
     border-radius: 10px;
@@ -29,7 +26,6 @@ body{
 }
 #input{
     color: white;
-    /* padding-left: 20px; */
     position: absolute;
     right: 20px;
     bottom: 0px;
@@ -41,30 +37,28 @@ body{
     margin-top: -20px;
 }
 ul{
-    
-    /* background-color: red; */
+    position: relative;
     margin-left: 0;
     padding-left: 0;
     margin-top: 140px;
     display: grid;
     list-style-type: none;
     grid-template-columns: auto auto auto auto;
-    /* column-gap: 50px; */
     gap: 10px;
 }
 li{
     font-size: 50px;
-    margin: auto;
+    display: flex;
     padding: 20px;
     color: white;
     background-color: black;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    /* padding: 20px; */
     width: 70px;
     height: 40px;
     border-radius: 10px;
     text-align: center;
-    /* text */
+    align-items: center;
+    justify-content: center;
 }
 #zero{
     grid-column: 1 / 3;
